@@ -1,6 +1,6 @@
 
 {
-  "name": "webpack-react-redux",
+  "name": "webpack-react-redux-express",
   "version": "1.0.0",
   "description": "A boilerplate for playing around with react, redux and react-router with the help of webpack.",
   "main": "index.js",
@@ -14,7 +14,9 @@
   "keywords": [
     "es6",
     "react",
-    "redux"
+    "redux",
+    "webpack",
+    "express"
   ],
   "author": "Sam Garg",
   "license": "MIT",
