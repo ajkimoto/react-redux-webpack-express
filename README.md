@@ -1,5 +1,5 @@
 # webpack-react-redux-express
-A boilerplate for playing around with react, redux and react-router with the help of webpack. Comes with Express.js server and a Profile for setting it up on Heroku. 
+A boilerplate for playing around with react, redux and react-router with the help of webpack. Comes with Express.js server and is ready to install on Heroku. 
 
 This is an extension of Jean-Pierre Sieren's webpack-react-redux boilerplate https://github.com/jpsierens/webpack-react-redux. I went ahead and added express.js server and some configuration for heroku
 
@@ -14,6 +14,7 @@ Contains:
 * Sass support, just import your styles wherever you need them
 * eslint to keep your js readable
 * express.js server
+* Procfile for Heroku
 * much more...
 
 
