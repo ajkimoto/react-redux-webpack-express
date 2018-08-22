@@ -13,12 +13,6 @@ export const initialState = {
         "Consectetur adipiscing",
         "Sed do eiusmod tempor",
         "Lorem ipsum dolor sit",
-        "Consectetur adipiscing",
-        "Lorem ipsum dolor sit",
-        "Consectetur adipiscing",
-        "Lorem ipsum dolor sit",
-        "Consectetur adipiscing",
-        "Lorem ipsum dolor sit",
         "Consectetur adipiscing"
       ]
   },

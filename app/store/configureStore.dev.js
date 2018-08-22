@@ -8,6 +8,7 @@ export default function configureStore(initialState) {
         initialState,
         DevTools.instrument()
     );
-
+    window.compare = window.compare || {};
+    window.compare.store = store;
     return store;
 }
