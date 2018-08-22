@@ -1,12 +1,8 @@
-// basic react component starting template
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-// import {findDOMNode} from 'react-dom';
 import ReactTooltip from 'react-tooltip';
 import Button from './Button';
 import '../styles/product.scss';
-// import { connect } from 'react-redux';
-// import {defaultFunction} from "../actions";
 export default class ProductComponent extends Component {
     static propTypes = {
         children: PropTypes.array
@@ -16,11 +12,6 @@ export default class ProductComponent extends Component {
         children: {}
     };
 
-    static showTooltip = (event, info) => {
-        // const { heading, text } = info;
-        console.log('info is', info);
-        console.log(event.clientX, event.clientY); // eslint-ignore-line
-    };
     render() {
         const productInfo = this.props.children[1];
         const bullets = productInfo.bullets.map((bullet, i) => {
@@ -42,10 +33,11 @@ export default class ProductComponent extends Component {
                 <p className="productDesc">
                     {productInfo.info}
                   <span
-                      ref="foo"
+                      ref={productInfo.id}
                       data-tip
                       data-for={productInfo.id}
                       className="product-info"
+                      onClick={onMouseOver}
                   >
                   </span>
                 </p>
