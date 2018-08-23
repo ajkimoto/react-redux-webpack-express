@@ -11,20 +11,20 @@ export const initialState = {
             'Lorem ipsum dolor sit',
             'Consectetur adipiscing',
             'Sed do eiusmod tempor',
-            'Lorem ipsum dolor sit',
-            'Lorem ipsum dolor sit',
-            'Consectetur adipiscing',
-            'Sed do eiusmod tempor',
-            'Lorem ipsum dolor sit',
-            'Consectetur adipiscing',
-            'Sed do eiusmod tempor',
-            'Lorem ipsum dolor sit',
-            'Lorem ipsum dolor sit',
-            'Consectetur adipiscing',
-            'Sed do eiusmod tempor',
-            'Lorem ipsum dolor sit',
-            'Consectetur adipiscing',
-            'Sed do eiusmod tempor'
+            'Orci varius natoque penatibus',
+            'Quisque sit amet malesuada leo',
+            'Mauris id rhoncus purus',
+            'Sed sit amet condimentum',
+            'Phasellus tincidunt',
+            'Nam sed tortor in ipsum',
+            'Praesent interdum dolor libero',
+            'Maecenas erat lectus',
+            'Curabitur placerat massa',
+            'Aliquam orci tellus',
+            'Cras egestas ut odio',
+            'Class aptent taciti sociosqu',
+            'Dui sem pretium neque',
+            'Morbi auctor quis sem'
         ],
         tooltipHeading: 'Product 1 tip',
         tooltipText: 'Aliquam in orci sit amet odio rhoncus'
@@ -51,7 +51,7 @@ export const initialState = {
         ],
         tooltipHeading: 'Product 3 tip',
         tooltipText: 'Sed massa augue, dignissim id condimentum'
-    }
+    },
 };
 
 export default function products(state = initialState, action) {
