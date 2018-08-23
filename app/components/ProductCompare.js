@@ -10,7 +10,20 @@ const products = {
             'Lorem ipsum dolor sit',
             'Consectetur adipiscing',
             'Sed do eiusmod tempor',
-            'Lorem ipsum dolor sit'
+            'Lorem ipsum dolor sit',
+            'Lorem ipsum dolor sit',
+            'Consectetur adipiscing',
+            'Sed do eiusmod tempor',
+            'Lorem ipsum dolor sit',
+            'Consectetur adipiscing',
+            'Sed do eiusmod tempor',
+            'Lorem ipsum dolor sit',
+            'Lorem ipsum dolor sit',
+            'Consectetur adipiscing',
+            'Sed do eiusmod tempor',
+            'Lorem ipsum dolor sit',
+            'Consectetur adipiscing',
+            'Sed do eiusmod tempor'
         ],
         tooltipHeading: 'Product 1 tip',
         tooltipText: 'Aliquam in orci sit amet odio rhoncus'

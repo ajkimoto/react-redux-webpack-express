@@ -23,10 +23,10 @@ export default class ProductComponent extends Component {
         return (
             <div className="product">
                 <ReactTooltip multiline place="bottom" id={productInfo.id} effect="solid">
-                  <p>
-                      <span style={{fontWeight: 'bold'}}>{productInfo.tooltipHeading}</span><br />
-                      <span>{productInfo.tooltipText}</span>
-                  </p>
+                    <p>
+                        <span style={{fontWeight: 'bold'}}>{productInfo.tooltipHeading}</span><br />
+                        <span>{productInfo.tooltipText}</span>
+                    </p>
                 </ReactTooltip>
                 <h1>
                     {productInfo.name}
