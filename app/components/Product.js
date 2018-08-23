@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import {findDOMNode} from 'react-dom';
 import ReactTooltip from 'react-tooltip';
 import Button from './Button';
 import '../styles/product.scss';
@@ -33,11 +34,11 @@ export default class ProductComponent extends Component {
                 <p className="productDesc">
                     {productInfo.info}
                   <span
-                      ref={productInfo.id}
+                      ref="foo"
                       data-tip
                       data-for={productInfo.id}
                       className="product-info"
-                      onClick={onMouseOver}
+                      onClick={() => { ReactTooltip.show(findDOMNode(this.refs.foo));}}
                   >
                   </span>
                 </p>
