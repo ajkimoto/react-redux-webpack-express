@@ -1,8 +1,8 @@
 import * as types from './types';
 
-export function filterTable(filter) {
+export function updateProducts(products) {
     return {
-        type: types.FILTER,
-        filter
+        type: types.PRODUCTS_UPDATE,
+        products
     };
 }

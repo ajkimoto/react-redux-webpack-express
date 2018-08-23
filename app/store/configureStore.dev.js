@@ -1,12 +1,12 @@
-import { createStore } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
 import rootReducer from '../reducers';
-import DevTools from '../containers/DevTools';
 
 export default function configureStore(initialState) {
     const store = createStore(
         rootReducer,
         initialState,
-        DevTools.instrument()
+        applyMiddleware(thunk)
     );
     window.compare = window.compare || {};
     window.compare.store = store;

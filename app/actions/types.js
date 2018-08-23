@@ -1,1 +1,1 @@
-export const FILTER = 'FILTER';
+export const PRODUCTS_UPDATE = 'PRODUCTS_UPDATE';

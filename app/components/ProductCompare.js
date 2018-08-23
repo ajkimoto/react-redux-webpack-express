@@ -1,3 +1,4 @@
+// This is the old stateless ProductCompare component (superseded by ProductCompareStateful.js)
 import React, { PropTypes } from 'react';
 import Product from './Product';
 import '../styles/productCompare.scss';
